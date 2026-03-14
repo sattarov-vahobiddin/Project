@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Job Application From</title>
+        <link rel="stylesheet" href="./mein.css">
+    </head>
+    <body>
+        <div class="div-blok container">
+            <!-- Header -->
+            <div class="container">
+                <h2>Job Application</h2>
+                <p>Please complete the form below to apply for a position with us.</p>
+                <hr>
+            <form action="/server php" method="get">
+            </div>
+            <!-- /Header -->
+            <!-- Full name -->
+            <div class="container">
+                <p>Full Name <sup style="color: red;">*</sup></p>
+                    <span>
+                        <input type="text" name="name" id="name" class="box-input">
+                        <input type="text" name="name1" id="name1" class="box-input">
+                        <input type="text" name="name2" id="name2" class="box-input">
+                    </span>
+                    <p class="box-p">
+                        <label for="name">First Name</label>
+                        <label for="name1" id="box-2">Middle Name</label>
+                        <label for="name2" id="box-3">Last Name</label>
+                    </p><br>
+            </div>
+            <!-- /Full name -->
+
+            <!-- Body Size -->
+            <div class="container">
+                <p>Body Size <sup style="color: red;">*</sup></p>
+                    <span>
+                        <input type="number" name="sm" id="sm" placeholder="sm" class="box-input">
+                        <input type="number" name="kg" id="kg" placeholder="kg" class="box-input">
+                    </span>
+                    <p class="box-p">
+                        <label for="sm">Height</label>
+                        <label for="kg" id="box-kg">Weight</label>
+                    </p><br>
+            </div>
+            <!-- /Body Size -->
+
+            <!-- Date -->
+            <div class="container">
+                <p>Birth Date</p>
+                    <span>
+                        <select class="box-input-1">
+                           <option disabled selected>Please select a day</option>
+                           <option>1</option>
+                           <option>2</option>
+                           <option>3</option>
+                           <option>4</option>
+                           <option>5</option>
+                           <option>6</option>
+                           <option>7</option>
+                           <option>8</option>
+                           <option>9</option>
+                           <option>10</option>
+                           <option>11</option>
+                           <option>12</option>
+                           <option>13</option>
+                           <option>14</option>
+                           <option>15</option>
+                           <option>16</option>
+                           <option>17</option>
+                           <option>18</option>
+                           <option>19</option>
+                           <option>20</option>
+                           <option>21</option>
+                           <option>22</option>
+                           <option>23</option>
+                           <option>24</option>
+                           <option>25</option>
+                           <option>26</option>
+                           <option>27</option>
+                           <option>28</option>
+                           <option>29</option>
+                           <option>30</option>
+                           <option>31</option>
+  
+                        </select>
+                        <select class="box-input-1">
+                           <option disabled selected>Please select a month</option>
+                           <option>Yanvar</option>
+                           <option>Fevral</option>
+                           <option>Mart</option>
+                           <option>Aprel</option>
+                           <option>May</option>
+                           <option>Iyun</option>
+                           <option>Iyul</option>
+                           <option>Avgust</option>
+                           <option>Sentabr</option>
+                           <option>Oktabr</option>
+                           <option>Noyabr</option>
+                           <option>Dekabr</option>
+                        </select>
+                        <select class="box-input-1">
+                           <option disabled selected>Please select a year</option>
+                           <option>1990</option>
+                           <option>1991</option>
+                           <option>1992</option>
+                           <option>1993</option>
+                           <option>1994</option>
+                           <option>1995</option>
+                           <option>1996</option>
+                           <option>1997</option>
+                           <option>1998</option>
+                           <option>1999</option>
+                           <option>2000</option>
+                           <option>2001</option>
+                           <option>2002</option>
+                           <option>2003</option>
+                           <option>2004</option>
+                           <option>2005</option>
+                           <option>2006</option>
+                           <option>2007</option>
+                           <option>2008</option>
+                           <option>2009</option>
+                           <option>2010</option>
+                        </select>
+                    </span>
+                    <p class="box-p">
+                        <label for="kun">Day</label>
+                        <label for="oy" class="box-oy">Month</label>
+                        <label for="yil" class="box-yil">Year</label>
+                    </p><br>
+            </div>
+            <!-- /Date -->
+
+            <!-- Family status -->
+            <div class="container">
+                <p>Family Status</p>
+                    <input type="radio" name="gender" id="divorced">
+                    <label for="divorced">Divorced</label><br>
+                    <input type="radio" name="gender" id="married">
+                    <label for="married">Married</label><br>
+                    <input type="radio" name="gender" id="single">
+                    <label for="single">Single</label><br>
+                    <input type="radio" name="gender" id="other">
+                    <label for="other">other</label>
+            </div><br>
+            <!-- /Family status -->
+            
+            <!-- Current address -->
+            <div class="container">
+                <p>Current Address</p>
+                   <span>
+                       <input type="text" name="line1" id="line1" class="box-address">
+                   </span>
+                <p class="box-p">
+                   <label for="line1">Street Address</label>
+                </p><br>
+                   <span>
+                       <input type="text" name="line1" id="line1" class="box-address">
+                   </span>
+                <p class="box-p">
+                   <label for="line1">Street Address Line 2</label>
+                </p><br>
+                   <span>
+                       <input type="text" name="city" id="city" class="box-input">
+                       <input type="text" name="state" id="state" class="box-input">
+                   </span>
+                <p class="box-p">
+                    <label for="city">City</label>
+                    <label for="state" class="box-state">State / Province</label>
+                </p><br>
+                    <span>
+                        <input type="text" name="zip" id="zip" class="box-address">
+                    </span>
+                <p class="box-p">
+                    <label for="zip">Postal / Zip Code</label>
+                </p>
+            </div><br>
+            <!-- /Current address -->
+            
+            <!-- Email address -->
+            <div class="container">
+                <p>Email Address</p>
+                <span>
+                    <input type="email" name="email" id="email" placeholder="ex: myname@example.com" class="box-input">
+                    <input type="number" name="code" id="code" placeholder="90" class="box-code">
+                    <input type="number" name="number" id="number" placeholder="9000909" class="box-number">
+                </span>
+                <p class="box-p">
+                    <label for="email">example@example.com</label>
+                    <label for="code" class="box-code1">Area Code</label>
+                    <label for="number" class="box-number1">Phone Number</label>
+                </p>
+            </div><br>
+            <!-- /Email address-->
+
+            <!-- Linkedln -->
+            <div class="container">
+                <p>Linkedln</p>
+                <span>
+                    <input type="text" name="link" id="link" class="box-input">
+                </span>
+            </div><br><hr>
+            <!-- /Linkedln -->
+
+            <!-- Position Applied -->
+            <div class="container">
+                <span class="span1"> Position Applied</span>
+                <span class="span2">How did you hear about us</span><br><br>
+                <span>
+                    <select class="box-input-1 box-select">
+                        <option disabled selected>Please Select</option>
+                        <option>Please Select</option>
+                        <option>Please</option>
+                        <option>Marketing Specialist</option>
+                        <option>Sales Manager</option>
+                        <option>Product Lead</option>
+                        <option>Developer</option>
+                    </select>
+                </span>
+                <span>
+                    <select class="box-input-1 box-select a">
+                        <option disabled selected>Please Select</option>
+                        <option>Please Select</option>
+                        <option>Linkedln</option>
+                        <option>Event</option>
+                        <option>Social Media</option>
+                        <option>Company Website</option>
+                        <option>Family / Friend</option>
+                        <option>Other</option>
+                    </select>
+                </span>
+            </div><br>
+            <!-- /Position Applied -->
+
+            <!-- Start Date -->
+            <div class="container">
+                <p>Available Start Date</p>
+                <input type="date" name="date" id="date" class="box-date">
+            </div><br>
+            <!--/ Start Date -->
+            <!-- File -->
+            <div class="container">
+                <p>Application Document(Diploma, Certificate)</p>
+                <input type="file" name="file" id="file" class="file"><br><br>
+                <p>Upload Your Resume</p>
+                <input type="file" name="file" id="file" class="file">
+            </div><br>
+            <!-- /File -->
+
+            <!-- Cover Latter -->
+             <div class="container">
+                <p>Cover Latter</p>
+                <textarea name="haqida" id="haqida" rows="10" cols="50"></textarea>
+             </div><br><br>
+            <!-- /Cover Latter -->
+            <button type="submit" class="button container">Apply</button>
+            </form>
+        </div>
+    </body>
+</html>
