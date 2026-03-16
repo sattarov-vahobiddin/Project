@@ -1,7 +1,2 @@
-talaba = {
-    "name": 'Ali',
-    "yosh": 20,
-    "name": 'Vali',
-    "yosh": 20
-}
-print(talaba.get("yosh"))
+a = list(range(0, 100001))
+print(a)
