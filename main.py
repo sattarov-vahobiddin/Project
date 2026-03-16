@@ -1,6 +1,6 @@
 print("Kiritilgan sonning kvadratini hisoblovchi dastur.")
 savol = ("Istalgan sonni kiriting ")
-savol += "(dasturni toxtatish uchun 'exit' deb yozing):"
+savol += "(dasturni to'xtatish uchun 'exit' deb yozing):"
 qiymat = ''
 while  qiymat != 'exit':
     qiymat = input(savol)
