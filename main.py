@@ -6,4 +6,4 @@ while  qiymat != 'exit':
     qiymat = input(savol)
     if qiymat != 'exit':
         print(int(qiymat)**2)
-print("Dastur tugadi!")
+print("Dastur to'xtadi!")
